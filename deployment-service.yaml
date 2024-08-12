@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: boardgame
+      app: boardgame 
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
     metadata:
